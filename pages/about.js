@@ -1,12 +1,13 @@
-import Link from 'next/link'
-import Navbar from '../components/NavBar'
+import Layout from '../components/Layout'
 
 const About = () => (
-    <div>
-     <Navbar/>
-        <h1>About BitzPrice</h1>
-        <p>App to view bitcoin prices.</p>
-    </div>
+    <Layout>
+        <div>
+            <h1>About BitzPrice</h1>
+            <p>App to view bitcoin prices.</p>
+        </div>
+    </Layout>
+
 
 )
 
